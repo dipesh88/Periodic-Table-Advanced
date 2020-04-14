@@ -11,3 +11,8 @@ molecule::~molecule()
 {
 
 }
+
+void molecule::property()
+{
+
+}

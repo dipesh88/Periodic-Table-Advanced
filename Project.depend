@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1586859587 source:h:\ccet\project\main.cpp
+	<iostream>
+	<string>
+	"include/particle.h"
+	"include/element.h"
+	"include/atom.h"
+	"include/molecule.h"
+	"include/electron.h"
+	"include/neutron.h"
+	"include/proton.h"
+	"include/ion.h"
+
+1586843370 h:\ccet\project\particle.h
+
+1586859165 source:h:\ccet\project\particle.cpp
+	"include/particle.h"
+
+1586858296 source:h:\ccet\project\element.cpp
+	"include/element.h"
+	<iostream>
+
+1586843410 h:\ccet\project\element.h
+	"particle.h"
+
+1586843564 h:\ccet\project\atom.h
+	"element.h"
+
+1586857762 h:\ccet\project\include\element.h
+	<string>
+	"electron.h"
+	"proton.h"
+	"neutron.h"
+
+1586859118 h:\ccet\project\include\particle.h
+
+1586857507 source:h:\ccet\project\atom.cpp
+	"include/atom.h"
+
+1586857479 h:\ccet\project\include\atom.h
+	"element.h"
+
+1586858509 source:h:\ccet\project\molecule.cpp
+	"include/molecule.h"
+
+1586858491 h:\ccet\project\include\molecule.h
+	"atom.h"
+	"ion.h"
+
+1586859269 source:h:\ccet\project\electron.cpp
+	"include/electron.h"
+	<iostream>
+
+1586859183 h:\ccet\project\include\electron.h
+	"particle.h"
+
+1586859607 source:h:\ccet\project\neutron.cpp
+	"include/neutron.h"
+	<iostream>
+
+1586850548 h:\ccet\project\include\neutron.h
+	"particle.h"
+
+1586850592 source:h:\ccet\project\proton.cpp
+	"include/proton.h"
+
+1586850536 h:\ccet\project\include\proton.h
+	"particle.h"
+
+1586851092 source:h:\ccet\project\ion.cpp
+	"include/ion.h"
+
+1586857567 h:\ccet\project\include\ion.h
+	"atom.h"
+

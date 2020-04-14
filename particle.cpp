@@ -9,13 +9,28 @@ particle::particle()
     sign = ' ';
 }
 
-particle::particle(float _mass,float _charge,char _sign)
+particle::particle(float mass,float charge,char sign)
 {
-    mass = _mass;
-    charge = _charge;
-    sign = _sign;
+    particle::mass = mass;
+    particle::charge = charge;
+    particle::sign = sign;
 }
 particle::~particle()
 {
 
+}
+
+float particle::Mass()
+{
+  return mass;
+}
+
+float particle::Charge()
+{
+ return charge;
+}
+
+char particle::Sign()
+{
+return sign;
 }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="atom.cpp" />
+		<Unit filename="electron.cpp" />
+		<Unit filename="element.cpp" />
+		<Unit filename="include/atom.h" />
+		<Unit filename="include/electron.h" />
+		<Unit filename="include/element.h" />
+		<Unit filename="include/ion.h" />
+		<Unit filename="include/molecule.h" />
+		<Unit filename="include/neutron.h" />
+		<Unit filename="include/particle.h" />
+		<Unit filename="include/proton.h" />
+		<Unit filename="include/type.h" />
+		<Unit filename="ion.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="molecule.cpp" />
+		<Unit filename="neutron.cpp" />
+		<Unit filename="particle.cpp" />
+		<Unit filename="proton.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
