@@ -5,12 +5,12 @@
 
 namespace chemistry
 {
-    class ion : public atom
-    {
+class ion : public atom
+{
 public:
     ion();
     ~ion();
-    };
+};
 
 }
 

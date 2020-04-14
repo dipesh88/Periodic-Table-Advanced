@@ -10,6 +10,7 @@ using namespace std;
 
 namespace chemistry
 {
+    class atom;
 
 class element
 {
@@ -27,9 +28,9 @@ protected:
 public:
 
     element();
+    element(int _atomic_no,string symbol,int no_of_proton);
     ~element();
     virtual void property();
-
 };
 
 }
